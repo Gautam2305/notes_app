@@ -1,9 +1,13 @@
 import "./App.css";
-import logo from "./logo.png";
-
+import { PathRouter } from "./utils/Router";
+import { Home } from "./pages/Home";
 function App() {
   return (
-   <></>
+   <>
+   <PathRouter>
+      <Home/>
+   </PathRouter>
+   </>
   );
 }
 
