@@ -1,0 +1,59 @@
+.sectionBox{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 10rem;
+    text-align: center;
+}
+.inputsBox{
+    display: flex;
+    flex-flow: column wrap;
+    width: 70%;
+    text-align: center;
+    padding: 2rem 0 0 4rem;
+}
+.inputLabel{
+    width: 10rem;
+}
+.titleInput{
+    margin: 0.75rem 3rem;
+    padding: 1.25rem 0 0 0;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    width: 20rem;
+    background-color: var(--primary-color);
+    border: none;
+}
+.titleInput::placeholder{
+    /* background-color: red; */
+    padding: 0 5px;
+    font-size: 1.05rem;
+}
+.selectBox{
+    display: flex;
+    gap: 0.5rem;
+}
+.labelSelect, .prioritySelect{
+    margin: 0.5rem 3rem;
+    padding: 0.25rem;
+}
+select{
+    border: none;
+    padding: 0.25rem 1rem 0.25rem 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+.noteSec{
+    width: 35rem;
+    padding: 1rem;
+}
+.noteInput{
+    background-color: var(--primary-color);
+    border: none;
+    width: 100%;
+    height: 12rem;
+    padding: 10px;
+    resize: vertical;
+}
