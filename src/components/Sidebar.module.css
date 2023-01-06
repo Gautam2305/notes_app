@@ -1,0 +1,23 @@
+.sidebar{
+    display: flex;
+    max-width: 15%;
+    padding: 1rem;
+}
+.sideButtonBox{
+    display: flex;
+    flex-flow: column wrap;
+}
+.sidebarButtons{
+    padding: 0.75rem 1rem;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--primary-txt-color);
+    width: 120px;
+    border-radius: 0.5rem;
+}
+.sidebarButtons:hover{
+    background-color: var(--brand-color);
+    color: var(--primary-color);
+}
