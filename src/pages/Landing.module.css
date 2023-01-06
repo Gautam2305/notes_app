@@ -1,0 +1,21 @@
+.landingPageMain{
+    display: flex;
+}
+.heroImg{
+    width:40rem;
+    margin-top: 3rem;
+}
+.landingText{
+    width: 30%;
+    padding: 4rem;
+}
+.loginBtn{
+    cursor: pointer;
+    width: 60%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--brand-color);
+    color: var(--primary-color);
+    font-size: 1.20rem;
+}
